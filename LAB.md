@@ -9,13 +9,13 @@ Basic steps for all assignments:
 1. Clone your forked repo locally (`git clone ...`)
 1. Start a branch (`git checkout -b dev`)
 1. Essentials
-  * .eslintrc
-  * .gitignore
-  * package.json
+    * .eslintrc
+    * .gitignore
+    * package.json
 1. Repeat until done:
-  * Do work
-  * Make commits
-  * Push to your github
+    * Do work
+    * Make commits
+    * Push to your github
 1. Submit PR from `<your repo>/<your branch>` to `<class repo>/<branch-with-your-username>`
 1. Verify that PR passes Travis CI
 1. Submit PR Url and:
@@ -26,9 +26,14 @@ For this assignment:
 
 * Work is to create a single `index.js` file that logs a message like:
 
-    ```
+    ```js
     console.log('hello world!');
     ```
-    When you run it via `> node index.js`
+    
+    When you run it via:
+    
+    ```bash
+    > node index.js`
+    ``
 
 * You can skip the `package.json` and `Verify that PR passes Travis CI` for this assignment only!
