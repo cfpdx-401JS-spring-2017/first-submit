@@ -8,6 +8,10 @@ Basic steps for all assignments:
 1. Fork this repository _to your own github account_
 1. Clone your forked repo locally (`git clone ...`)
 1. Start a branch (`git checkout -b dev`)
+1. Essentials
+  * .eslintrc
+  * .gitignore
+  * package.json
 1. Repeat until done:
   * Do work
   * Make commits
@@ -20,10 +24,11 @@ Basic steps for all assignments:
   
 For this assignment:
 
-* Work is to create a single js file that logs a message like:
+* Work is to create a single `index.js` file that logs a message like:
 
     ```
     console.log('hello world!');
     ```
+    When you run it via `> node index.js`
 
-* You can skip `Verify that PR passes Travis CI` for this assignment only!
+* You can skip the `package.json` and `Verify that PR passes Travis CI` for this assignment only!
