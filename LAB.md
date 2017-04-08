@@ -15,7 +15,7 @@ Basic steps for all assignments:
 1. Repeat until done:
     * Do work
     * Make commits
-    * Push to your github
+    * Push to your github fork
 1. Submit PR from `<your repo>/<your branch>` to `<class repo>/<branch-with-your-username>`
 1. Verify that PR passes Travis CI
 1. Submit PR Url and:
