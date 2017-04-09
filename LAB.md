@@ -1,9 +1,10 @@
-<img src="https://cloud.githubusercontent.com/assets/478864/22186847/68223ce6-e0b1-11e6-8a62-0e3edc96725e.png" width=30> Code Fellows PDX
+<img src="https://cloud.githubusercontent.com/assets/478864/22186847/68223ce6-e0b1-11e6-8a62-0e3edc96725e.png" width=30> Greeting App Submitted the 401 Way
 ===
+
 
 ## Submit an assignment the 401 way!
 
-Basic steps for all assignments:
+### Basic steps for all assignments
 
 1. Fork this repository _to your own github account_
 1. Clone your forked repo locally (`git clone ...`)
@@ -22,18 +23,14 @@ Basic steps for all assignments:
   * reflection (what happened? how was it?)
   * questions and follow-on interest
   
-For this assignment:
+### For this assignment
 
-* Work is to create a single `index.js` file that logs a message like:
+Submit your modularized, tested greeting app:
 
-    ```js
-    console.log('hello world!');
-    ```
-    
-    When you run it via:
-    
-    ```bash
-    > node index.js`
-    ``
+1. Greeting functionality and CLI functionality are cleanly separated.
+1. Greeting functionality is unit tested:
+    1. Forms correct greeting with supplied name
+    1. Has a default when no name is supplied
+1. Has one "reality check" integration test
 
-* You can skip the `package.json` and `Verify that PR passes Travis CI` for this assignment only!
+** You can skip the `package.json` and `Verify that PR passes Travis CI` for this assignment only! **
