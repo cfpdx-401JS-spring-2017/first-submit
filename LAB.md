@@ -22,15 +22,9 @@
 1. Submit PR Url and:
   * reflection (what happened? how was it?)
   * questions and follow-on interest
-  
-### For this assignment
-
-Submit your modularized, tested greeting app:
-
-1. Greeting functionality and CLI functionality are cleanly separated.
-1. Greeting functionality is unit tested:
-    1. Forms correct greeting with supplied name
-    1. Has a default when no name is supplied
-1. Has one "reality check" integration test
 
 ** You can skip the `package.json` and `Verify that PR passes Travis CI` for this assignment only! **
+
+### For this assignment
+
+Submit your telephone server
